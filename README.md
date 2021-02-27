@@ -7,6 +7,8 @@
 
 ## Example
 
+![iShot2021-02-27 21 01 55](https://user-images.githubusercontent.com/18339649/109387948-2a080000-793f-11eb-8db1-dae8f626dc62.gif)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
