@@ -7,7 +7,9 @@
 
 ## Example
 
-![iShot2021-02-27 21 01 55](https://user-images.githubusercontent.com/18339649/109387948-2a080000-793f-11eb-8db1-dae8f626dc62.gif)
+![iShot2021-02-27 21 04 37](https://user-images.githubusercontent.com/18339649/109388024-9d117680-793f-11eb-988a-7fced3d3242d.gif)
+
+![iShot2021-02-27 21 05 48](https://user-images.githubusercontent.com/18339649/109388029-a0a4fd80-793f-11eb-8386-245690c1461a.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
