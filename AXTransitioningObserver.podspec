@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'AXTransitioningObserver/Classes/**/*'
-  s.dependency 'ReactiveObjC'
+  s.dependency 'ReactiveObjC' ,'~> 3.0.0'
   
 end
