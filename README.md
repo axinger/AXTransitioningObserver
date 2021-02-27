@@ -12,7 +12,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+UIViewController 自定义 转场动画,封装与UIAlertViewController效果一样,遵循MVC模式
 ## Installation
 
 AXTransitioningObserver is available through [CocoaPods](https://cocoapods.org). To install
