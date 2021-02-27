@@ -23,6 +23,26 @@ pod 'AXTransitioningObserver'
 ## Author
 
 axinger, axinger@outlook.com
+```
+#import <AXAlertTransitioningObserver/UIViewController+AXTransitioning.h>
+```
+- 在对应ViewControlle 重写此方法
+```
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        [self ax_alertObserver:^(AXAlertTransitioningObserver *observer) {
+            observer.alertControllerStyle = AXAlertControllerStyleCentre;
+        }];
+    }
+    return self;
+}
+```
+```
+/// 调用者自控制是否点击空白页面 消失
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+```
 
 ## License
 
