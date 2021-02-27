@@ -1,0 +1,27 @@
+PODS:
+  - AXTransitioningObserver (1.0.0):
+    - ReactiveObjC
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - AXTransitioningObserver (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  AXTransitioningObserver:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AXTransitioningObserver: d6d2b2bd3c3603a170f7d843a67be76ffe20925c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 3530a3c1e734fb3e35bbae64aa866a76c0ea7532
+
+COCOAPODS: 1.10.1
